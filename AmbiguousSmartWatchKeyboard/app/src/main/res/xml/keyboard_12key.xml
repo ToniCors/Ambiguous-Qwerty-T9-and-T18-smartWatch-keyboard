@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="15%"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="15%"
+    >
+
+
+    <Row>
+        <Key android:codes="1" android:keyLabel="QW"  android:horizontalGap="6%p" android:keyWidth="29%"/>
+        <Key android:codes="2" android:keyLabel="ERTYUI" android:keyWidth="29%"/>
+        <Key android:codes="3" android:keyLabel="OP" android:keyWidth="29%"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="4" android:keyLabel="AS" android:horizontalGap="6%p" android:keyWidth="29%"/>
+        <Key android:codes="5" android:keyLabel="DFGH" android:keyWidth="29%"/>
+        <Key android:codes="6" android:keyLabel="JKL" android:keyWidth="29%"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="7" android:keyLabel="ZXC" android:horizontalGap="12%p" android:keyWidth="25%"/>
+        <Key android:codes="8" android:keyLabel="VBN" android:keyWidth="25%" />
+        <Key android:codes="9" android:keyLabel="M" android:keyWidth="25%" />
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="12" android:keyIcon="@drawable/key_12key_space" android:isRepeatable="true" android:keyEdgeFlags="right"
+            android:keyWidth="32%p" android:keyHeight="13%p" android:horizontalGap="27%"/>
+        <Key android:codes="16" android:keyIcon="@drawable/key_del" android:iconPreview="@drawable/key_del_b"
+            android:isRepeatable="true" android:keyEdgeFlags="right" android:keyWidth="14.4%" android:keyHeight="13%p"/>
+    </Row>
+</Keyboard>

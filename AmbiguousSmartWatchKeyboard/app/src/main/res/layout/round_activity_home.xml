@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424141"
+    tools:context="com.example.heisenberg.watchx.HomeActivity"
+    tools:deviceIds="wear_round"
+    android:keepScreenOn="true">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST round"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:textSize="9dp"
+        android:textColor="#fbf9f9"
+        android:layout_alignParentTop="true"
+        />
+    <!--
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/method1"
+            android:id="@+id/button1"
+            android:onClick="Choose"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/method2"
+            android:id="@+id/button2"
+            android:layout_below="@+id/button1"
+            android:layout_alignStart="@+id/button1"
+            android:layout_alignEnd="@+id/button1"
+            android:onClick="Choose" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/method3"
+            android:id="@+id/button3"
+            android:layout_below="@+id/button2"
+            android:layout_alignEnd="@+id/button2"
+            android:onClick="Choose"
+            android:layout_alignStart="@+id/button2" />
+
+         <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/method4"
+            android:id="@+id/button4"
+            android:layout_below="@+id/button1"
+            android:layout_alignStart="@+id/button1"
+            android:layout_alignEnd="@+id/button1"
+            android:onClick="Choose" />
+
+
+    <EditText
+        android:id="@+id/code1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:hint="UTENTE N°"
+        />
+
+
+    <EditText
+        android:id="@+id/code2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/code1"
+        android:layout_centerHorizontal="true"
+        android:hint="SESSIONE N°"
+
+        /> -->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView"
+        android:id="@+id/textView1"
+        android:text="User ID"/>
+
+    <Spinner
+        android:id="@+id/code1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/idUser"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/code1"
+        android:id="@+id/text2"
+        android:text="Test ID"/>
+
+    <Spinner
+        android:id="@+id/code2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text2"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/idTest"/>
+
+
+    <LinearLayout
+        android:layout_below="@+id/code2"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3x3"
+            android:id="@+id/button1"
+            android:onClick="Choose3x3"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3x6"
+            android:id="@+id/button2"
+            android:onClick="Choose3x6"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

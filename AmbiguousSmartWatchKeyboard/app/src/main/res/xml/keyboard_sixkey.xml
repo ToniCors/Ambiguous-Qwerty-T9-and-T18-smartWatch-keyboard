@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="15%"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="15%"
+    >
+
+
+    <Row>
+        <Key android:codes="1" android:keyLabel="QW" android:keyWidth="15.5%" android:keyHeight="15%" android:horizontalGap="3.5%"/>
+        <Key android:codes="2" android:keyLabel="E" android:keyWidth="15.5%" android:keyHeight="15%"/>
+        <Key android:codes="3" android:keyLabel="R" android:keyWidth="15.5%" android:keyHeight="15%"/>
+        <Key android:codes="4" android:keyLabel="T" android:keyWidth="15.5%" android:keyHeight="15%"/>
+        <Key android:codes="5" android:keyLabel="YUI" android:keyWidth="15.5%" android:keyHeight="15%"/>
+        <Key android:codes="6" android:keyLabel="OP" android:keyWidth="15.5%" android:keyHeight="15%"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="7" android:keyLabel="A" android:keyWidth="15.5%" android:keyHeight="15%" android:horizontalGap="3.5%"/>
+        <Key android:codes="8" android:keyLabel="S" android:keyWidth="15.5%" android:keyHeight="15%"/>
+        <Key android:codes="9" android:keyLabel="DFG" android:keyWidth="15.5%" android:keyHeight="15%"/>
+        <Key android:codes="10" android:keyLabel="H" android:keyWidth="15.5%" android:keyHeight="15%"/>
+        <Key android:codes="11" android:keyLabel="JK" android:keyWidth="15.5%" android:keyHeight="15%"/>
+        <Key android:codes="12" android:keyLabel="L" android:keyWidth="15.5%" android:keyHeight="15%"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="13" android:keyLabel="ZX" android:keyWidth="13%" android:keyHeight="15%" android:horizontalGap="10%"/>
+        <Key android:codes="14" android:keyLabel="C" android:keyWidth="13%" android:keyHeight="15%"/>
+        <Key android:codes="15" android:keyLabel="V" android:keyWidth="13%" android:keyHeight="15%"/>
+        <Key android:codes="16" android:keyLabel="B" android:keyWidth="13%" android:keyHeight="15%"/>
+        <Key android:codes="17" android:keyLabel="N" android:keyWidth="13%" android:keyHeight="15%"/>
+        <Key android:codes="18" android:keyLabel="M" android:keyWidth="13%" android:keyHeight="15%"/>
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="19" android:keyIcon="@drawable/key_12key_space" android:isRepeatable="true" android:keyEdgeFlags="right"
+            android:keyWidth="32%p" android:keyHeight="13%p" android:horizontalGap="27%"/>
+        <Key android:codes="20" android:keyIcon="@drawable/key_del" android:iconPreview="@drawable/key_del_b"
+            android:isRepeatable="true" android:keyEdgeFlags="right" android:keyWidth="14.4%" android:keyHeight="13%p"/>
+    </Row>
+</Keyboard>
